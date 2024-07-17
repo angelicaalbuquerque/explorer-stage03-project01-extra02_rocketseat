@@ -1,0 +1,29 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* color variables */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --whitesmoke: #fafafc;
+  --orange: #f67669;
+  --dark-blue: #293241;
+  --light-blue: #bfd7e4;
+  --light-gray: #e6e6f0;
+  --darker-gray: #c1bccc;
+  --purple: #4e4958;
+}
+
+/* general */
+body,
+input,
+select,
+textarea {
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Staatliches", sans-serif; */
+}
