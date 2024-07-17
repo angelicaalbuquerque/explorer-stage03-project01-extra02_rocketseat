@@ -29,12 +29,13 @@ textarea {
 
 body {
   background-color: var(--light-blue);
+  color: var(--purple);
 }
 
 body::before {
   content: "";
   background-color: var(--dark-blue);
-  height: 465px;
+  height: 474px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -73,4 +74,84 @@ header p {
 
 header img {
   margin: 32px 0;
+}
+
+form {
+  width: 750px;
+  min-height: 300px;
+  background-color: var(--white);
+  border-radius: 0px 0px 20px 20px;
+  padding: 32px 64px 64px 64px;
+  position: relative;
+  margin-bottom: 200px;
+  top: -33px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  color: var(--dark-blue);
+  text-align: center;
+}
+
+#personal-info-top {
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 133px;
+}
+
+#personal-info-top h3 {
+  padding: 35px 275px;
+  font-family: "Staatliches", sans-serif;
+  color: var(--white);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldset-wrapper .col-2 {
+  display: flex;
+}
+
+.col-2 input {
+  width: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  border-radius: 8px;
+  background-color: var(--whitesmoke);
+  border: 1px solid var(--light-gray);
+  height: 55px;
+  width: 100%;
+}
+
+.input-wrapper label span {
+  color: var(--darker-gray);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 10px;
 }

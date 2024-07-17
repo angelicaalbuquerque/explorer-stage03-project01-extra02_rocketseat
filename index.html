@@ -27,8 +27,49 @@
       <img src="src/img1.svg" alt="ilustração de um balão de comentário, com fundo laranja claro">
     </header>
 
+    <div id="personal-info-top">
+      <h3>Informações pessoais</h3>
+    </div>
+
     <form id="mentorship-feedback">
 
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <div class="col-2">
+            <div class="input-wrapper">
+              <label for="mentored-name" id="mentored-name">Nome</label>
+              <input type="text" id="mentored-name">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mentored-surname" id="mentored-surname">Sobrenome</label>
+              <input type="text" id="mentored-surname">
+            </div>
+          </div>
+
+          <div class="input-wrapper">
+            <label for="mentored-email" id="mentored-email">E-mail<span>(digite um email válido)</span></label>
+            <input type="email" id="mentored-email">
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Informações do Mentor</legend>
+
+          <div class="input-wrapper">
+            <label for="mentorship-select">Selecione quem foi o seu mentor</label>
+            <select id="mentorship-select">
+              <option value="Arnaldo">Arnaldo</option>
+              <option value="Barbara">Bárbara</option>
+              <option value="Mariangela">Mariângela</option>
+              <option value="Sergio">Sérgio</option>
+              <option value="Rosangela">Rosângela</option>
+            </select>
+          </div>
+        </div>
+      </fieldset>
 
 
       <!-- <input type="submit" class="button" id=" mentorship-feedback" value="Salvar" /> -->
