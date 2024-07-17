@@ -25,5 +25,52 @@ input,
 select,
 textarea {
   font-family: "Poppins", sans-serif;
-  /* font-family: "Staatliches", sans-serif; */
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+body::before {
+  content: "";
+  background-color: var(--dark-blue);
+  height: 465px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.page {
+  margin: auto;
+  width: 750px;
+}
+
+header {
+  margin: 108px auto 32px auto;
+  width: 391px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--white);
+}
+
+header p {
+  color: var(--white);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header img {
+  margin: 32px 0;
 }
